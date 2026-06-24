@@ -1,0 +1,100 @@
+########################################
+# OS files
+########################################
+.DS_Store
+Thumbs.db
+
+########################################
+# IDE / Editor
+########################################
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+########################################
+# .NET / ASP.NET Core
+########################################
+bin/
+obj/
+*.user
+*.log
+*.dll
+*.exe
+*.pdb
+*.cache
+
+########################################
+# Node / React
+########################################
+node_modules/
+dist/
+build/
+.next/
+out/
+
+########################################
+# ENV FILES (IMPORTANT - SECRETS)
+########################################
+.env
+.env.*
+!.env.example
+
+# backend secrets
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# BUT allow safe templates if you want:
+!appsettings.Example.json
+
+########################################
+# Secrets / Keys (VERY IMPORTANT)
+########################################
+*.pem
+*.key
+*.crt
+*.pfx
+*.jwk
+
+# Stripe / API keys backups
+stripe-secret*
+stripe-key*
+*.secret
+
+########################################
+# Database files
+########################################
+*.db
+*.sqlite
+*.sqlite3
+
+########################################
+# Logs
+########################################
+logs/
+*.log
+
+########################################
+# Testing / coverage
+########################################
+coverage/
+
+########################################
+# Temporary files
+########################################
+tmp/
+temp/
+
+########################################
+# Docker overrides (optional)
+########################################
+docker-compose.override.yml
+
+########################################
+# Backup / swap files
+########################################
+*.bak
+*.swp
